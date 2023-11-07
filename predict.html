@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Predict Productivity</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <h2>Predict Productivity</h2>
+    <a href="/productivity">Predict Productivity</a>
+    <form action="/data_predict" method="post">
+      <label for="Date">Date:</label>
+      <input type="number" name="date" required /><br />
+
+      <label for="Quarter">Quarter:</label>
+      <input type="number" name="quarter" required /><br />
+
+      <label for="Department">Department:</label>
+      <select name="Department" required>
+        <option value="Sewing">Sewing</option>
+        <option value="Finishing">Finishing</option></select
+      ><br />
+
+      <label for="Day">Day of the week:</label>
+      <select name="Day of the week" required>
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+        <option value="Saturday">Saturday</option>
+        <option value="Sunday">Sunday</option></select
+      ><br />
+
+      <label for="TeamNumber">Team Number:</label>
+      <input type="number" name="Team Number" required /><br />
+
+      <label for="Trageted Productivity">Trageted Productivity</label>
+      <input type="number" name="Trageted Productivity" required /><br />
+
+      <label for="TimeAllocated">Time Allocated:</label>
+      <input type="number" name="Time Allocated" required /><br />
+
+      <label for="UnfinishedItems">Unfinished Items:</label>
+      <input type="number" name="Unfinished Items" required /><br />
+
+      <label for="OverTime">Over time:</label>
+      <input type="number" name="Over time" required /><br />
+
+      <label for="incentive">Incentive:</label>
+      <input type="number" name="Incentive" required /><br />
+
+      <label for="IdleTime">Idle Time:</label>
+      <input type="number" name="Idle Time" required /><br />
+
+      <label for="IdleMen">Idle Men:</label>
+      <input type="number" name="Idle Men" required /><br />
+
+      <label for="StyleChange">Style Change:</label>
+      <input type="number" name="Style Change" required /><br />
+
+      <label for="NoOfWorkers">Number of Workers:</label>
+      <input type="number" name="Number of Workers" required /><br />
+
+      <label for="Actual Productivity">Actual Productivity</label>
+      <input type="number" name="Actual Productivity" required /><br />
+
+      <input type="submit" value="Predict" />
+    </form>
+  </body>
+</html>
